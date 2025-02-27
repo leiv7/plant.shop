@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин растений</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">PLANT&PLACE</div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Растения</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#contacts" class="header__button">Связаться с нами</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__container">
+      <h1 class="hero__title">Озелените свой дом легко!</h1>
+      <p class="hero__text">Выберите лучшие растения для уюта и свежего воздуха.</p>
+      <a href="#services" class="hero__button">Узнать больше</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about__container">
+      <h2 class="about__title">О нас</h2>
+      <p class="about__text">
+        Добро пожаловать в наш магазин растений! Мы — команда настоящих энтузиастов, объединенных одной целью:
+        сделать ваш дом и рабочее пространство более зеленым и уютным. Наша специализация — продажа лучших растений,
+        которые не только украсят ваш интерьер, но и принесут в вашу жизнь гармонию и позитив.
+      </p>
+      <ul class="about__list">
+        <li>Широкий выбор растений</li>
+        <li>Консультации по уходу</li>
+        <li>Быстрая доставка</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container services__container">
+      <h2 class="services__title">РАСТЕНИЯ</h2>
+      <div class="services__list">
+        <div class="services__item">
+          <img src="images/plant1.jpg" alt="Бамбук" class="services__image">
+          <h3 class="services__name">Бамбук</h3>
+          <p class="services__desc">Стильный и минималистичный, идеально впишется в любой интерьер.</p>
+          <p class="services__price">Цена: 3000 руб.</p>
+        </div>
+        <div class="services__item">
+          <img src="images/plant2.jpg" alt="Фикус" class="services__image">
+          <h3 class="services__name">Фикус</h3>
+          <p class="services__desc">Неприхотливое растение, подходящее для любого помещения.</p>
+          <p class="services__price">Цена: 2000 руб.</p>
+        </div>
+        <div class="services__item">
+          <img src="images/plant3.jpg" alt="Спатифиллум" class="services__image">
+          <h3 class="services__name">Спатифиллум</h3>
+          <p class="services__desc">Элегантное растение, которое добавит утонченности вашему дому.</p>
+          <p class="services__price">Цена: 2500 руб.</p>
+        </div>
+        <div class="services__item">
+          <img src="images/plant4.jpg" alt="Папоротник" class="services__image">
+          <h3 class="services__name">Папоротник</h3>
+          <p class="services__desc">Натуральное украшение интерьера, способное оживить любое пространство.</p>
+          <p class="services__price">Цена: 5000 руб.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container contacts__container">
+      <h2 class="contacts__title">Свяжитесь с нами</h2>
+      <form class="contacts__form">
+        <input type="text" placeholder="Ваше имя" class="contacts__input">
+        <input type="email" placeholder="Ваш email" class="contacts__input">
+        <textarea placeholder="Ваше сообщение" class="contacts__textarea"></textarea>
+        <button type="submit" class="contacts__button">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__text">&copy; 2025 PlantShop</p>
+      <div class="footer__socials">
+        <a href="#" class="footer__link">Instagram</a>
+        <a href="#" class="footer__link">Facebook</a>
+        <a href="#" class="footer__link">Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
